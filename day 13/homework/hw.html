@@ -1,0 +1,42 @@
+<!-- 2) შეეცადოთ რომ გააკეთოთ ქვევით მოცემულების მსგავსი -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>პერსონალური ინფორმაცია</title>
+    
+</head>
+<body>
+    <form>
+        <label for="salutation">რისთვის გამოიყენებთ:</label>
+        <select name="salutation" id="salutation">
+            <option value="">--არჩევა--</option>
+            <option value="business">ბიზნესი</option>
+            <option value="study">სწავლა</option>
+            <option value="other">სხვა</option>
+        </select><br><br>
+
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+        <label for="gender">სქესი:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">მამაკაცი</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">ქალი</label><br><br>
+
+        <label for="email">ელ-ფოსტა:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="address">მისამართი:</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="გაგზავნა">
+    </form>
+</body>
+</html>
